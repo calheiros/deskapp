@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkWindow" id="window">
+    <property name="title">Minha janela Gtk</property>
+    <child>
+      <object class="GtkButton" id="button">
+        <property name="label">Clique aqui</property>
+        <signal name="clicked" handler="on_button_clicked"/>
+      </object>
+    </child>
+  </object>
+</interface>
